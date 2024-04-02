@@ -276,7 +276,7 @@
         case "graphs":
             if (!leftPane) {
                 leftPane = new ChartPane(Raphael($("#stage .stage-1")[0]));
-                leftPane.addChart(new GC.App.Charts["Length/Stature Chart"](), 0);
+                leftPane.addChart(new GC.App.Charts["Head Circumference Chart"](), 0);
                 leftPane.addChart(new GC.App.Charts["Weight Chart"](), 0);
                 leftPane.addChart(new GC.App.Charts["Percentile Chart"](), 1);
                 leftPane.addChart(new GC.App.Charts["Chart Stack"]([new GC.App.Charts["Body Mass Index Chart"](), new GC.App.Charts["Head Circumference Chart"]()]), 1);

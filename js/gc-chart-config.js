@@ -60,7 +60,7 @@ window.GC = window.GC || {};
     // =========================================================================
     var settings = {
         isParentTabShown : true,
-        hidePatientHeader: true,
+        hidePatientHeader: false,
         hideAppPreferences: false,
         hideGCComparison: false,
         hideAddData: false,
